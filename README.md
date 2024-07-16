@@ -16,7 +16,7 @@ The Diabetes Prediction project aims to provide a tool that can help in predicti
 
 
 #Project Structure
-
+```
 Diabetes_Prediction/
 │
 ├── diabetes_prediction.py      # Main application script
@@ -25,7 +25,7 @@ Diabetes_Prediction/
 ├── README.md                   # Project README file
 └── .gitignore                  # Git ignore file
 
-
+```
 # Features
 
 - User-Friendly Interface: An intuitive web application interface to input medical parameters.
