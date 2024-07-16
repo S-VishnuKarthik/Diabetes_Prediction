@@ -14,6 +14,18 @@ Welcome to the Diabetes Prediction project! This project leverages machine learn
 
 The Diabetes Prediction project aims to provide a tool that can help in predicting the likelihood of diabetes in individuals based on medical data inputs. Users can input various parameters such as glucose level, blood pressure, BMI, age, and more. The machine learning model then predicts whether the individual is likely to have diabetes.
 
+
+#Project Structure
+
+Diabetes_Prediction/
+│
+├── diabetes_prediction.py      # Main application script
+├── diabetes_model.pkl          # Pre-trained machine learning model
+├── requirements.txt            # List of required packages
+├── README.md                   # Project README file
+└── .gitignore                  # Git ignore file
+
+
 # Features
 
 - User-Friendly Interface: An intuitive web application interface to input medical parameters.
@@ -55,17 +67,8 @@ To run this project locally, follow these steps:
 To run the Streamlit app, execute the following command in the project directory:
 
 ```bash
-streamlit run diabetes_prediction.py'''
-
-#Project Structure
-
-Diabetes_Prediction/
-│
-├── diabetes_prediction.py      # Main application script
-├── diabetes_model.pkl          # Pre-trained machine learning model
-├── requirements.txt            # List of required packages
-├── README.md                   # Project README file
-└── .gitignore                  # Git ignore file
+streamlit run diabetes_prediction.py
+```
 
 
 # Acknowledgements
